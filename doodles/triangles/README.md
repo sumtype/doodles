@@ -1,10 +1,10 @@
-#Triangles
+# Triangles
 
 Makes a lot of triangles.  You can configure them.
 
-###Installation
+### Installation
 
-####TL;DR
+#### TL;DR
 
 Have Node.js and NPM installed (Node.js v6.x).  Enter this in your terminal to download and start the application:
 
@@ -16,7 +16,7 @@ Enter this when you're done using it:
 
 `npm stop`
 
-####Instructions
+#### Instructions
 
 Install Node.js and NPM if you haven't already.  It's best to install Node.js and NPM from source as a non-root user.  You can find out how online.  You can also follow the download and installation instructions [here](https://nodejs.org/en/), or if you think you may do more with Node.js and NPM the [Node Version Manager](https://github.com/creationix/nvm) (NVM) may be a better means to install them through, since it provides simplified flexibility with regards to the version of Node.js and NPM you want to use.  This application has been ad hoc tested using Node.js version "6.9.1".
 
@@ -38,6 +38,6 @@ Now that the server is running, you'll be able to access the application if you 
 
 Make sure to run `npm stop` when you're done.  Otherwise the local server will keep running on your machine as a background process.
 
-####Notes
+#### Notes
 
 The server runs on port 5000 by default, so if you're already using that port you'll want to set it to use a new port before running `npm start`.  To do so open the "trianglesClientServer.js" file in the "doodles/triangles" directory, then edit the value of the `PORT` variable to be a port you know is open.  Save the file.  Then, run `npm start`.
