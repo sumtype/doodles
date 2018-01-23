@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.netarts.mobileTemplate" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Mobile Template</name>
+    <description>
+        Mobile template for doodles.
+    </description>
+    <author email="support@netarts.io" href="http://netarts.io">
+        NetArts.io
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <icon src="www/images/icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <engine name="android" spec="~5.1.1" />
+    <engine name="amazon-fireos" spec="3.6.3" />
+    <engine name="blackberry10" spec="3.8.0" />
+</widget>

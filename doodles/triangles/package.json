@@ -1,0 +1,52 @@
+{
+  "name": "doodles-triangles",
+  "version": "1.0.0",
+  "description": "Makes a lot of triangles.  You can configure them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp build:pro && forever start trianglesClientServer.js",
+    "stop": "forever stop trianglesClientServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumtype/doodles.git"
+  },
+  "keywords": [
+    "p5",
+    "sketch",
+    "doodle"
+  ],
+  "author": "James Mason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumtype/doodles/issues"
+  },
+  "homepage": "https://github.com/sumtype/doodles#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "p5": "^0.5.4",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "bootstrap-slider": "^9.4.1",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.8.0",
+    "csswring": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.1",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-font-family": "^2.0.0",
+    "postcss-font-magician": "^1.5.0",
+    "webpack": "^1.13.3",
+    "webpack-stream": "^3.2.0"
+  }
+}

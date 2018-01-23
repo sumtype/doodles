@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/bundle.js"></script>
+  <title>Triangles</title>
+</head>
+<body>
+  <section id="app"></section>
+  <section id="configPanel">
+    <section class="configField">
+      <div class="configFieldHeader">
+        <span>Segment Length:</span><span id="segmentLengthValues"></span>
+      </div>
+      <input id="segmentLength" type="text" class="slider" value="" data-slider-min="0" data-slider-max="150" data-slider-step="1" data-slider-value="[0,150]"/>
+    </section>
+    <section class="configField">
+      <div class="configFieldHeader">
+        <span>Shape Stroke Color</span>
+      </div>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Weight Value:</span><span id="weightStrokeValues"></span>
+        </div>
+        <input id="weightStroke" type="text" class="slider" value="" data-slider-min="0" data-slider-max="5" data-slider-step="1" data-slider-value="[0,5]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Red Value:</span><span id="redStrokeValues"></span>
+        </div>
+        <input id="redStroke" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Green Value:</span><span id="greenStrokeValues"></span>
+        </div>
+        <input id="greenStroke" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Blue Value:</span><span id="blueStrokeValues"></span>
+        </div>
+        <input id="blueStroke" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Alpha Value:</span><span id="alphaStrokeValues"></span>
+        </div>
+        <input id="alphaStroke" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+    </section>
+    <section class="configField">
+      <div class="configFieldHeader">
+        <span>Shape Fill Color</span>
+      </div>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Red Value:</span><span id="redFillValues"></span>
+        </div>
+        <input id="redFill" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Green Value:</span><span id="greenFillValues"></span>
+        </div>
+        <input id="greenFill" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Blue Value:</span><span id="blueFillValues"></span>
+        </div>
+        <input id="blueFill" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+      <section class="configSubField">
+        <div class="configFieldHeader">
+          <span>Alpha Value:</span><span id="alphaFillValues"></span>
+        </div>
+        <input id="alphaFill" type="text" class="slider" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="[0,255]"/>
+      </section>
+    </section>
+  </section>
+</body>
+</html>

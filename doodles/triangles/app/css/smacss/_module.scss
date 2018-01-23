@@ -1,0 +1,17 @@
+/********************************************************************************
+  _module.scss
+    Application module styling.  Contains structural styling for elements with an "id" attribute.
+********************************************************************************/
+
+#app {
+  text-align: center;
+  z-index: 0;
+}
+
+#configPanel {
+  z-index: 100;
+  padding: 20px;
+  position: fixed;
+  top: 20px;
+  left : 20px;
+}
